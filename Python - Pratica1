@@ -5,7 +5,7 @@
 while True:
   try:
     nome = str(input("Digite seu nome: "))
-    if nome.isdigit() and len(nome) < 3:
+    if nome.isdigit() and len(nome) < 3: #Encontrar solução!
         raise ValueError("Tente novamente utilizando somente letras!")
   except ValueError as l:
     print("Nome invalido!", l)
