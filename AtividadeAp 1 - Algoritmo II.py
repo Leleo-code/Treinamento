@@ -22,7 +22,7 @@ nota2 = int(input("Digite a nota do exercicio 2: "))
 nota3 = int(input("Digite a nota do exercicio 3: "))
 ME = int(nota1 + nota2 + nota3)/3
 MA1 = int(nota1 + nota2)*2
-MA2 = int(MA1 + nota3)*3
+MA2 = (MA1 + nota3)*3
 MA = (MA2 + ME)/7
 
 print("-------------------")
